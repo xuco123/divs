@@ -1,66 +1,83 @@
-.div1 {
-    background-color: rgb(255, 209, 209);
+body {
+    background-color: hsl(216, 12%, 8%);
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    padding: 50px;
-    border: 5px solid red;
-    border-radius: 20px;
-    width: 400px;
 
-
-}
-
-.body {
     align-items: center;
-    display: flex;
-    flex-direction: column;
 
-
-
+    height: 100vh;
 }
 
-.h {
-    color: red;
-    border: 2px solid red;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.div2 {
-    background-color: rgb(169, 255, 169);
-    padding: 50px;
-    border: 2px dashed green;
+.div1 {
+    background-color: hsl(213, 19%, 18%);
+    width: 320px;
+    padding: 20px;
     border-radius: 20px;
-    margin-top: 20px;
-    width: 500px;
+
 
 }
 
 .h1 {
-    color: green;
-    border: 2px dashed green;
+    color: white;
+}
+
+.p1 {
+    color: hsl(213, 19%, 65%);
+}
+
+.b1 {
+    background-color: hsl(213, 19%, 25%);
+    color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border: 0;
+
+
+}
+
+.b1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button1 {
+    margin-top: 20px;
+    background-color: rgb(255, 106, 0);
+
+    width: 100%;
+    height: 40px;
     border-radius: 20px;
-    padding: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    border: 0;
+
+
+}
+
+.button1:hover {
+    background-color: white;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1 {
+    background-color: hsl(213, 19%, 25%);
+    border-radius: 20px;
+    width: 20ppx;
+    height: 20px;
 }
 
 .div3 {
-    background-color: rgb(252, 222, 252);
+    background-color: hsl(213, 19%, 25%);
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
-    border: 2px solid purple;
-    margin-top: 20px;
-    width: 300px;
-}
-
-.h2 {
-    color: rgb(235, 144, 235);
-    border: 2px solid rgb(235, 144, 235);
-    border-radius: 20px;
-    padding: 10px;
-
-
-
-
-
-
 }
